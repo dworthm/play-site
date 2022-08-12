@@ -36,11 +36,15 @@ export default function Home() {
               <p>Just for fun!</p>
             </a>
           </Link>
-
           <a href="https://www.nasa.gov/" className={styles.card}>
             <h2>NASA &rarr;</h2>
             <p>Space things</p>
           </a>
+          <Link href='/wall'>
+            <a className={styles.card}>
+              <h2>The Wall &rarr;</h2>
+            </a>
+          </Link>
 
 
         </div>
