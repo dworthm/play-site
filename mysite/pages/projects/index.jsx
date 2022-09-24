@@ -22,6 +22,12 @@ const Projects = () => (
         <p>[app blurb here]</p>
       </a>
     </Link>
+    <Link href='/projects/trivia'>
+      <a className={stylesProject.card}>
+        <h2>Trivia app &rarr;</h2>
+        <p>[app blurb here]</p>
+      </a>
+    </Link>
     </div>
   </div>
 );

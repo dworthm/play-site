@@ -21,13 +21,19 @@ export default function Home() {
           <Link href='/aboutme'>
             <a className={styles.card}>
               <h2>About me &rarr;</h2>
-              <p>Who I am...what I do...what I am thinking...</p>
+              <p>Who I am...what I do...</p>
             </a>
           </Link>
           <Link href='/projects'>
             <a className={styles.card}>
               <h2>Projects &rarr;</h2>
               <p>What I&apos;ve done...</p>
+            </a>
+          </Link>
+          <Link href='/thoughts'>
+            <a className={styles.card}>
+              <h2>Thoughts &rarr;</h2>
+              <p>What I&apos;m thinking...</p>
             </a>
           </Link>
         </div>
